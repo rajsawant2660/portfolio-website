@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #000; /* Full black background */
+    color: #fff; /* White text for readability */
+}
+
+/* Header */
+header {
+    background: #222; /* Dark grey for slight contrast */
+    color: #fff;
+    padding: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffcc00; /* Yellow hover effect */
+}
+
+/* Sections */
+section {
+    padding: 50px;
+    background: #111; /* Dark grey for slight contrast */
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.2); /* Soft white glow */
+}
+/* Image Styling */
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 3px solid #ffcc00; /* Yellow border for a stylish look */
+    margin-top: 20px; 
+    image-rendering: -webkit-optimize-contrast; /* Ensures best clarity */
+}
+
+
+/* Hover Effect for Daily Schedule */
+.hover-box {
+    display: inline-block;
+    position: relative;
+    background: #ffcc00; 
+    color: #000; /* Black text inside yellow box */
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.hover-text {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #333; /* Dark grey for better visibility */
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+.hover-box:hover .hover-text {
+    display: block;
+}
+
+/* Contact Links */
+a {
+    color: #ffcc00; /* Yellow links for better contrast */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
