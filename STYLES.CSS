@@ -1,16 +1,14 @@
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: #000; /* Full black background */
-    color: #fff; /* White text for readability */
+    background-color: #000;
+    color: #fff;
 }
 
-/* Header */
 header {
-    background: #222; /* Dark grey for slight contrast */
+    background: #222;
     color: #fff;
     padding: 20px;
 }
@@ -24,35 +22,32 @@ nav a {
 }
 
 nav a:hover {
-    color: #ffcc00; /* Yellow hover effect */
+    color: #ffcc00;
 }
 
-/* Sections */
 section {
     padding: 50px;
-    background: #111; /* Dark grey for slight contrast */
+    background: #111;
     margin: 20px;
     border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.2); /* Soft white glow */
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.2);
 }
-/* Image Styling */
+
 img {
     border-radius: 50%;
     width: 200px;
     height: 200px;
     object-fit: cover;
-    border: 3px solid #ffcc00; /* Yellow border for a stylish look */
-    margin-top: 20px; 
-    image-rendering: -webkit-optimize-contrast; /* Ensures best clarity */
+    border: 3px solid #ffcc00;
+    margin-top: 20px;
+    image-rendering: -webkit-optimize-contrast;
 }
 
-
-/* Hover Effect for Daily Schedule */
 .hover-box {
     display: inline-block;
     position: relative;
-    background: #ffcc00; 
-    color: #000; /* Black text inside yellow box */
+    background: #ffcc00;
+    color: #000;
     padding: 15px;
     margin: 10px;
     border-radius: 5px;
@@ -66,7 +61,7 @@ img {
     top: 100%;
     left: 50%;
     transform: translateX(-50%);
-    background: #333; /* Dark grey for better visibility */
+    background: #333;
     color: #fff;
     padding: 10px;
     border-radius: 5px;
@@ -77,9 +72,8 @@ img {
     display: block;
 }
 
-/* Contact Links */
 a {
-    color: #ffcc00; /* Yellow links for better contrast */
+    color: #ffcc00;
     text-decoration: none;
 }
 
